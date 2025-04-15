@@ -1,6 +1,6 @@
 from PriceScraper import PriceScraper
 from EmailSender import EmailSender
-url = "https://appbrewery.github.io/instant_pot/"
+url = "https://www.amazon.com/dp/B075CYMYK6?ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6&th=1"
 price_scraper = PriceScraper(url)
 price =  price_scraper.price
 below = 100
